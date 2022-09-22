@@ -13,6 +13,10 @@ body {
     background-repeat: repeat-y;
 }
 
+header {
+    height: 90vh;
+}
+
 h1 {
     text-align: center;
     color: rgb(124, 1, 1);
@@ -85,9 +89,8 @@ div .about {
 }
 
 footer {
+    height: 8vh;
     width: 98%;
     text-align: center;
-    padding: 40px 0px 20px 0px;
-    position: absolute;
-    bottom: 0;
+    padding: 40px 0px 0px 0px;
 }
