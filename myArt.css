@@ -8,13 +8,13 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom right, #e8552c, rgb(168, 195, 78), #5699eb);
+    background: linear-gradient(to right, #e8552c, rgb(168, 195, 78), #5699eb), #e8552c;
     background-size: 100% 100%;
     background-repeat: repeat-y;
 }
 
 header {
-    height: 90vh;
+    min-height: 90%;
 }
 
 h1 {
