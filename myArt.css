@@ -86,3 +86,9 @@ footer {
     text-align: center;
     padding: 40px 0px 0px 0px;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        background: linear-gradient(to right, #e0a595, rgb(212, 228, 157), #8eb0da), #e8552c;
+    }
+}
