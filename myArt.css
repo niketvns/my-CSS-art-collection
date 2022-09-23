@@ -13,16 +13,43 @@ body {
     background-repeat: repeat-y;
 }
 
-header {
-    min-height: 90%;
+nav {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: 10% 70% 10%;
+    gap: 2vw;
+    box-shadow: 5px 5px 25px black;
+    border-radius: 0px 0px 20px 20px;
 }
 
-h1 {
+div.social-media {
+    display: grid;
+    grid-template-columns: 30px 30px;
+    gap: 8%;
+}
+
+img.social {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+img.social:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.heading {
     text-align: center;
     color: rgb(124, 1, 1);
     margin-top: 20px;
-    border-bottom: 2px solid #b32121;
 }
+
+header {
+    min-height: 80%;
+}
+
 
 .cards {
     padding: 40px 0px 40px 0px;
@@ -33,7 +60,7 @@ h1 {
     gap: 3rem;
 }
 
-img {
+.art-img {
     width: 15rem;
     height: 15rem;
     border-radius: 20px 20px 0px 0px;
@@ -90,5 +117,12 @@ footer {
 @media screen and (max-width:600px) {
     body {
         background: linear-gradient(to right, #e0a595, rgb(212, 228, 157), #8eb0da), #e8552c;
+    }
+}
+
+@media screen and (max-width:400px) {
+    div.social-media {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
