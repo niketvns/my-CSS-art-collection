@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to right, #e8552c, rgb(168, 195, 78), #5699eb), #e8552c;
+    background: linear-gradient(to right, #dc876f, rgb(199, 220, 130), #6a9ddc), #e8552c;
     background-size: 100% 100%;
     background-repeat: repeat-y;
 }
@@ -37,14 +37,6 @@ img {
     width: 15rem;
     height: 15rem;
     border-radius: 20px 20px 0px 0px;
-}
-
-video {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 35px 35px 0px 0px;
-    position: relative;
-    top: -8px;
 }
 
 .art {
