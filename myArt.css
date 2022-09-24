@@ -22,6 +22,29 @@ nav {
     border-radius: 0px 0px 20px 20px;
 }
 
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+}
+
+img.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 div.social-media {
     display: grid;
     grid-template-columns: 30px 30px;
